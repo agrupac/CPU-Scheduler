@@ -1,29 +1,3 @@
-/* This is the only file you will be editing.
- * - hake_sched.c (Hake Scheduler Library Code)
- * - Copyright of Starter Code: Prof. Kevin Andrea, George Mason University.  All Rights Reserved
- * - Copyright of Student Code: You!
- * - Copyright of ASCII Art: [Modified from an Unknown Artist - https://www.asciiart.eu/animals/fish]
- * - Restrictions on Student Code: Do not post your code on any public site (eg. Github).
- * -- Feel free to post your code on a PRIVATE Github and give interviewers access to it.
- * -- You are liable for the protection of your code from others.
- * - Date: Aug 2023
- */
-
-/* CS367 Project 1, Fall Semester, 2023
- * Fill in your Name, GNumber, and Section Number in the following comment fields
- * Name: Aidan Grupac
- * GNumber: G01367405
- * Section Number: CS367-004             (Replace the _ with your section number)
- */
-
-/* hake CPU Scheduling Library
-      /`·   ¸...¸
-     /¸..\.´....¸`:.
- ¸.·´  ¸            `·.¸.·´)
-: © ):´;   hake        ¸  {
- `·.¸ `·           ¸.·´\`·¸)
-     `\\´´´´´´´´´´´\¸.·´
-*/
 
 /* Standard Library Includes */
 #include <stdio.h>
@@ -42,9 +16,6 @@
 #include "vm_support.h"
 #include "vm_process.h"
 
-/* Feel free to create any helper functions you like! */
-
-/*** Hake Library API Functions to Complete ***/
 
 //HELPER FUNCTION
 //add any process to any queue
